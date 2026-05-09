@@ -5,6 +5,8 @@ reviewer response, figure-text consistency, and pre-submission audits.
 
 [Traditional Chinese README](./README.zh-TW.md)
 
+> 📚 Part of the [**agentic AI learning roadmap**](https://github.com/WenyuChiou/awesome-agentic-ai-zh) — a 7-stage curated path for building agentic AI, multilingual (zh-TW · zh-CN · English). This skill is referenced in §13 (research workflow skills).
+
 ## Purpose
 
 This skill helps researchers turn manuscript work into a repeatable workflow:
