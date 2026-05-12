@@ -199,10 +199,34 @@ available:
 - "This pattern reflects..."
 - "This difference arises from..."
 
-### 4.4 Avoid Prose Colon Lists
+### 4.4 Limit Colons And Semicolons
 
-Do not write "Three factors: (a)...". Integrate the list into grammar or split
-the items into separate sentences.
+Both punctuation marks are commonly over-used in academic prose. They splice
+independent clauses (semicolon) or set up a definition / list (colon) when
+two separate sentences would read more cleanly.
+
+Guideline: at most one semicolon and one colon per paragraph in body prose.
+Citation lists `(Author, year; Author, year)`, abbreviation lists `(WSA = H
+or VH; ACA = H or VH)`, ratio notations, and equation-introducing colons
+inside parentheses do not count toward the cap.
+
+Common replacements:
+
+- Prose colon list ("Three factors: (a)..."): integrate into grammar
+  ("Three factors — A, B, and C — contributed", noting the em-dash style
+  caveat in §4.7) or split into separate sentences with a numbered breakout.
+- Colon at sentence end ("X: Y is the case"): use a period and let Y stand
+  as its own sentence.
+- Mid-sentence semicolon between two independent clauses: prefer two
+  sentences. Use semicolon only when the two clauses are short, tightly
+  parallel, and a period would feel choppy.
+- Semicolon as a list separator with already-comma-rich items: acceptable;
+  this is the one case the rule does not apply.
+
+The Yang-group convention is stricter (≤1 semicolon per paragraph); other
+journals are more permissive. Apply the stricter form by default — it
+forces clearer sentence boundaries and reads less like LLM-generated prose,
+which tends to over-use both marks.
 
 ### 4.5 Polish After Structure
 
@@ -272,6 +296,55 @@ with a concrete example in the target field's terms.
 
 Apply this audit after structure and mechanism are correct, alongside the
 banned-word audit in `banned_words.md`.
+
+### 4.7 No Invented Compound Terms
+
+Use existing field vocabulary. Do not invent noun-noun (or noun-noun-noun)
+compounds by joining words with hyphens to label a concept the paper is
+introducing. Compound nouns coined ad hoc read as software-API names, not
+as scientific concepts, and they signal to reviewers that the author is
+labelling rather than explaining.
+
+Warning signs of invented compounds:
+
+- Two or more nouns joined by hyphens to name a thing the paper proposes
+  ("validator-stack", "computational-interior", "theoretical-mobility",
+  "cognitive-coordinates", "rule-engine", "decision-pipeline").
+- A compound with no recent literature precedent in the target field
+  (quick check: search the term in Google Scholar or in the journal's
+  recent issues; if there are zero hits in the target field, it is
+  invented).
+- A compound that reads as a category name in a software repository
+  rather than as a phrase a domain expert would use.
+
+When the paper needs to name a concept, prefer in this order:
+
+1. An existing single noun used in the target field.
+2. A short noun phrase using prepositions ("the layer of institutional
+   rule checks", "switching the underlying behavioural assumption",
+   "the agent's own reported appraisal").
+3. A defined-term abbreviation introduced once with a plain-language
+   gloss ("the Irrational Behaviour Rate, IBR, defined as the fraction
+   of decisions in which the agent's stated appraisal contradicts its
+   proposed action").
+
+Hyphenated compounds ARE appropriate in three settings:
+
+- Adjectival modifiers before a noun ("water-rights system", "agent-based
+  model", "self-reported appraisal", "field-foreign vocabulary"). These
+  modify a downstream noun and are standard English.
+- Standard scientific compounds with literature precedent ("cross-sectional",
+  "open-access", "risk-perception", "decision-making", "agent-based").
+- Quoted technical names from a software repository or cited paper, used
+  to identify rather than to coin a concept.
+
+The rule applies to ad hoc invention. If unsure, default to a plain noun
+phrase: a phrase with prepositions is almost always more readable than a
+chained-noun compound.
+
+Apply this audit at the same time as §4.6 (domain-native vocabulary) —
+invented compounds and field-foreign terms tend to appear together when
+text is imported from a software or method draft.
 
 ## 5. Voice, Tense, And Rhythm
 

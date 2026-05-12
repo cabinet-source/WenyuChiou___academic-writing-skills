@@ -160,6 +160,11 @@ Before returning prose or an audit result, check:
    recognise, or has CS / engineering / general-AI jargon slipped in from a
    method draft or software repository? See `references/writing_principles.md`
    §4.6 and `.paper/style_overrides.md` "Domain Vocabulary Swaps".
+9. Are any noun-noun (or noun-noun-noun) compounds joined by hyphens
+   invented for this paper rather than drawn from existing field
+   vocabulary? Are semicolons and colons in body prose limited to at most
+   one each per paragraph (citation lists and equation parentheticals
+   excluded)? See `references/writing_principles.md` §4.4 and §4.7.
 
 If any item fails, fix it before showing the user.
 

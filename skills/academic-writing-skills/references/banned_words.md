@@ -10,6 +10,11 @@ or neighbouring discipline that the target journal's reviewer pool does
 not use natively), see `writing_principles.md` §4.6 and the "Domain
 Vocabulary Swaps" section of `.paper/style_overrides.md`.
 
+For noun-noun hyphenated compounds invented to label a concept the paper
+introduces (rather than drawn from existing field vocabulary) and for the
+limit on semicolons and colons in body prose, see `writing_principles.md`
+§4.7 and §4.4 respectively.
+
 ## 1. Single Words
 
 ### Verbs
