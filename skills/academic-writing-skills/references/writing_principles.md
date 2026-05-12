@@ -216,49 +216,59 @@ Do not polish before the logic is fixed. The normal order is:
 
 ### 4.6 Domain-Native Vocabulary
 
-Match terminology to the field the paper is being submitted to. A reviewer in
-water resources, ecology, epidemiology, or materials science scans for the
-field's native vocabulary; CS, engineering, or general-AI jargon that has
-slipped in from a method paper or a software repository signals "this author
-is not from our field" before the science is even read. Vocabulary drift is
-most common in papers that began as a software-method or AI-method draft and
-were later refocused for a domain audience.
+Match terminology to the field the paper is being submitted to. Reviewers
+scan for their field's native vocabulary, and jargon imported from a
+different sub-field, a software repository, a method paper, or an adjacent
+discipline signals "this author is not from our discipline" before the
+science is even read. Vocabulary drift is common when:
+
+- a manuscript began in one field and was refocused for another (a
+  computational draft refocused for ecology; a method paper refocused for
+  clinical readers; a basic-science draft refocused for a translational
+  audience),
+- a paper integrates text from a software repository, technical report, or
+  internal documentation whose audience differs from the target journal,
+- a co-author from a neighbouring discipline contributes prose using their
+  own field's vocabulary,
+- a model description was originally written for a methods journal and is
+  now part of an applied paper.
 
 Before settling on a noun or verb, check:
 
 1. Would a senior reviewer in the target field use this exact word in their
    own paper?
-2. If the word originated in CS, software engineering, general AI, or
-   reinforcement learning, is there a field-native equivalent the reviewer
-   would prefer?
+2. If the word originated in a different field (CS, statistics, engineering,
+   pharmacology, ML, software documentation, qualitative social science,
+   etc.), is there a target-field equivalent the reviewer would prefer?
 3. Has a novel term that names the paper's contribution been defined inline
-   with a field-native concrete example at first use?
+   with a target-field concrete example at first use?
 
-Per-paper vocabulary swaps belong in `.paper/style_overrides.md` under a
-"Domain Vocabulary Swaps" section. The paper's banned-term and preferred-
-term lists are field-specific, not universal — `banned_words.md` covers
-field-agnostic GPT-style vocabulary, but field-foreign jargon is whatever
-the target reviewer pool does not use.
+What counts as "field-foreign" is defined by the target audience, not by
+the source field. The same word may be perfectly native in one journal and
+read as jargon in another:
 
-Worked example: a human-water agent-based modelling paper for a water-
-journal audience.
+| Term | Native in | Foreign in (without redefinition) |
+|---|---|---|
+| "validator", "pipeline", "stack" | software engineering, CS | water resources, ecology, clinical medicine |
+| "RL policy", "reward function" | reinforcement learning, robotics | epidemiology, materials science |
+| "loss function", "regularisation" | machine learning, statistics | applied biology, qualitative social science |
+| "p-hacking", "garden of forking paths" | statistical methodology | engineering design, computational physics |
+| "harm reduction", "PrEP" | public health, epidemiology | basic pharmacology, materials chemistry |
+| "ablation study" | machine learning | clinical trials, field ecology |
+| "ground truth" | computer vision, ML | qualitative research, history of science |
 
-| Field-foreign (CS / engineering / generic) | Water-resources native |
-|---|---|
-| "validator stack", "rule engine" | "institutional rule checks", "rule layer" |
-| "intercepts proposals before execution" | "screens each proposed decision before the agent acts" |
-| "numerical state in, numerical action out" | "behavioural equation that takes observed conditions and returns a numerical action" |
-| "compressed into coefficients" | "absorbed into the equation's calibrated parameters" |
-| "computational interior" | "the model's parameter values" |
-| "cross-theory portability" | "the same agent architecture hosts different behavioural theories by changing the rule set, not the decision code" |
-| "decomposed across self-reported cognitive coordinates" | "broken down by the agent's own reported appraisal of scarcity and capacity" |
-| "factor these" (as verb for separating) | "separate the two" |
-| "theoretical mobility" (invented term) | "switching the underlying behavioural assumption requires rewriting the decision equation" |
+The fix is not to delete the concept — it usually carries technical content
+that belongs in the paper — but to rewrite the surrounding sentence in the
+target field's native vocabulary. Per-paper vocabulary swaps belong in
+`.paper/style_overrides.md` under a "Domain Vocabulary Swaps" section,
+where the manuscript records its own field-foreign-to-field-native
+substitution table. `banned_words.md` covers field-agnostic GPT-style
+vocabulary; field-foreign jargon is whatever the target reviewer pool
+does not use, and is therefore paper-specific.
 
-The same logic applies in any field: ecology papers should not adopt RL
-terminology wholesale; materials-science papers should not import LLM-paper
-phrasing; epidemiology papers should keep clinical-research vocabulary even
-when the model is computational.
+Novel terms that name the paper's contribution are allowed even when they
+have no native equivalent, but they must be defined inline at first use
+with a concrete example in the target field's terms.
 
 Apply this audit after structure and mechanism are correct, alongside the
 banned-word audit in `banned_words.md`.

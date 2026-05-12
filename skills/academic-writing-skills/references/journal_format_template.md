@@ -21,12 +21,14 @@ target journal's current author guidelines.
 | Primary research field | |
 | Typical reader background | |
 | Reviewer pool likely background | |
+| Source fields the manuscript imports text from | |
 | Field-foreign vocabulary risk | low / medium / high |
 
-If the manuscript originated as or imported text from a software-method or
-general-AI source, vocabulary risk is at least medium — fill the "Domain
+If the manuscript imports text from a different sub-field (method paper,
+software repository, neighbouring-discipline co-author, internal technical
+documentation), vocabulary risk is at least medium — fill the "Domain
 Vocabulary Swaps" section of `.paper/style_overrides.md` with the
-field-foreign terms that must be replaced before submission. See
+target-field-native replacements for each field-foreign term. See
 `references/writing_principles.md` §4.6.
 
 ## Length Limits

@@ -5,8 +5,9 @@ overrides in `.paper/style_overrides.md` take precedence.
 
 This file covers field-agnostic GPT-style vocabulary. For field-foreign
 jargon that signals "this author is not from our discipline" to reviewers
-(CS / engineering / AI terms in a water, ecology, materials, or
-epidemiology paper), see `writing_principles.md` §4.6 and the "Domain
+(terminology imported from a sub-field, method paper, software repository,
+or neighbouring discipline that the target journal's reviewer pool does
+not use natively), see `writing_principles.md` §4.6 and the "Domain
 Vocabulary Swaps" section of `.paper/style_overrides.md`.
 
 ## 1. Single Words

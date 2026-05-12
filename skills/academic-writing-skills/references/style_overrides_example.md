@@ -32,17 +32,32 @@ out-of-pocket loss         uncompensated loss
 
 ## Domain Vocabulary Swaps
 
-Use this section when the manuscript originated as a software-method or
-AI-method draft and was later refocused for a field audience. Source the
-field-native side from a sample of recent papers in the target journal —
-two or three Methods and Discussion sections is usually enough to identify
-the vocabulary the reviewer pool uses.
+Use this section when the manuscript imports text from a different
+sub-field (method paper, software repository, neighbouring-discipline
+co-author, internal technical documentation) and the target journal's
+reviewers use different terminology. What counts as "field-foreign" is
+defined by the target audience, not the source field. Source the
+target-field-native side from a sample of recent papers in the journal —
+two or three Methods and Discussion sections is usually enough to
+identify the vocabulary the reviewer pool uses.
 
-Example for a water-resources manuscript whose method layer is an LLM-based
-agent-based model:
+Format the table with the source-field term on the left and the
+target-field replacement on the right:
 
 ```text
-field-foreign (CS / engineering / generic)        water-resources native
+field-foreign (source: <source field>)          target-field native (<target journal field>)
+----------------------------------------------  ----------------------------------------------------------
+<source-field term 1>                           <target-field replacement 1>
+<source-field term 2>                           <target-field replacement 2>
+...
+```
+
+Worked illustration — a manuscript that imported CS / software-engineering
+terminology from an underlying agent-based-modelling repository, now being
+refocused for a water-resources journal:
+
+```text
+field-foreign (source: CS / software)             water-resources native
 ------------------------------------------------  ---------------------------------------------------------
 validator stack                                   institutional rule checks
 intercepts proposals before execution             screens each proposed decision before the agent acts
@@ -52,17 +67,17 @@ computational interior                            the model's parameter values
 cross-theory portability                          same architecture hosts different behavioural theories
 decomposed across self-reported cognitive coords  broken down by the agent's own reported appraisal
 factor these (verb)                               separate the two
-theoretical mobility                              switching the underlying behavioural assumption
 ```
 
-Novel terms that name the paper's contribution (for the example above:
-"action layer" vs "cognitive layer" in human-water ABM) are allowed but
-must be defined inline with a field-native concrete example at first use.
+The same table format applies to any field pair the manuscript bridges —
+ML / clinical, statistics / engineering, pharmacology / public health,
+qualitative-research / computational, basic / translational, methods /
+applied. The specific entries are paper-dependent.
 
-The same kind of table applies in any field — ecology papers should not
-adopt RL terminology wholesale, materials-science papers should not import
-LLM-paper phrasing, and epidemiology papers should keep clinical-research
-vocabulary even when the underlying model is computational.
+Novel terms that name the paper's contribution (e.g., for the water
+illustration above: "action layer" vs "cognitive layer" in human-water
+ABM) are allowed even with no field-native equivalent, but they must be
+defined inline at first use with a target-field concrete example.
 
 ## Figure Conventions
 
