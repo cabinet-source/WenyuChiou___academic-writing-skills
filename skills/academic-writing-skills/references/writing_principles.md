@@ -143,7 +143,7 @@ Before writing a surprising result, run this audit:
 
 Report the audit before treating the result as a contribution.
 
-### 3.2 Mechanisms Need Evidence
+### 3.2 Mechanisms Need Evidence — And A Section
 
 Mechanism explanations in Results should point to either:
 
@@ -151,17 +151,44 @@ Mechanism explanations in Results should point to either:
 - a method rule already described,
 - a cited theory or empirical finding.
 
-Longer interpretation belongs in Discussion.
+**Length rule.** Results mechanism = one (rarely two) sentence that names the
+cause and points to the evidence. Anything longer — multi-result synthesis,
+theory tie-in, comparison with prior literature, or speculative explanation —
+belongs in Discussion §3 (Mechanism synthesis).
+
+**Failure mode to avoid.** A Results paragraph that reads like Discussion
+(3-4 sentences of mechanism narrative without pointing to a figure or
+method rule). This blurs the boundary and forces the reader to re-read in
+Discussion. Conversely, a Discussion paragraph that only restates Results
+numbers without adding mechanism or implication is also a failure — it
+duplicates rather than synthesises.
+
+**Runnable check.** For each Results paragraph, after writing:
+1. Is the finding stated first?
+2. Is there exactly one mechanism sentence?
+3. Does that sentence point to a figure / table / method rule / citation?
+
+If any answer is no, revise. If the mechanism needs more than one sentence,
+move the additional content to Discussion.
 
 ### 3.3 Causal Claim Audit
 
-Before writing a causal claim, check:
+Before writing a causal claim, check each of the following. For each threat,
+write down a one-sentence reason it is or is not ruled out. If it cannot be
+ruled out, hedge the claim accordingly.
 
-- correlation vs. causation,
-- reverse causality,
-- selection bias,
-- base-rate neglect,
-- survivorship bias,
+| Threat | Question | Hedge if not ruled out |
+|---|---|---|
+| Correlation vs. causation | Could the same data pattern arise without a causal link? | "is associated with" |
+| Reverse causality | Could Y cause X instead of X causing Y? | "co-varies with" |
+| Confounding / omitted variable | Is there a Z that could explain both X and Y? | "is associated with, controlling for [vars]" |
+| Selection bias | Is the sample non-random with respect to the outcome? | "Among [sample], …" + state generalisability limit |
+| Base-rate neglect | Did you compare the rate to the population base rate? | Report both rates explicitly |
+| Survivorship bias | Are dropouts / failures excluded from the denominator? | State the denominator and inclusion criteria |
+| Ecological fallacy | Are you inferring individual behaviour from group means? | Use "at the [group] level, …" |
+| Regression to the mean | Was the sample chosen on an extreme value? | Compare to a matched non-extreme control |
+| Immortal time bias | (Survival contexts) Is some follow-up period unobservable by design? | Realign exposure-time accounting |
+| Collider bias | Did you condition on a variable affected by both X and Y? | Do not condition; or report unconditional estimate |
 - faithful treatment of prior work.
 
 If the study design cannot support causality, use associational language.

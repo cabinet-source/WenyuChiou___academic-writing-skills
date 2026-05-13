@@ -151,8 +151,14 @@ Before returning prose or an audit result, check:
 1. Does every result state the finding before the figure citation?
 2. Does every finding have a mechanism grounded in data, method, or literature?
 3. Are overclaim verbs and vague intensifiers removed or hedged?
-4. Does every precise number in prose trace to a figure, table, code output, or
-   citation?
+4. Numeric verifiability: re-grep every numeric token in Abstract, Results,
+   and Conclusion. Each must trace to a row in `.paper/claim_evidence_ledger.md`
+   (or to a figure annotation, table cell, code output, or citation visible
+   to the reader). Numbers without a ledger row must be removed, hedged, or
+   have evidence added per the disposition tree in
+   `references/claim_evidence_audit.md`. Do not rely on memory across
+   revisions — numbers drift silently when figures are regenerated or
+   analyses re-run.
 5. Are figure references panel-specific when panels exist?
 6. Do reviewer responses point to a real manuscript change?
 7. Does journal format override any default rule?

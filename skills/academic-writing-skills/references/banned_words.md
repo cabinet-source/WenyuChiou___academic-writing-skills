@@ -54,6 +54,26 @@ generic intensifier.
 Usually delete: undeniably, remarkably, notably, crucially, importantly,
 ultimately, meticulously, markedly, substantially, considerably.
 
+Also delete when used as fillers (not when carrying technical content such as
+*statistically significantly* or *spatially explicitly*): essentially,
+fundamentally, inherently, particularly, specifically, effectively, largely,
+broadly, generally, relatively (without a comparator), arguably.
+
+### Redundant Qualifiers
+
+Delete the qualifier — the noun already carries the meaning:
+
+| Redundant | Use |
+|---|---|
+| completely unique | unique |
+| absolutely essential | essential |
+| totally novel | novel (and quantify why) |
+| fully comprehensive | comprehensive (and quantify) |
+| extremely critical | critical (and justify) |
+| deeply concerning | concerning (and state the consequence) |
+| highly significant | significant (with statistical evidence) |
+| very important | (delete; if it matters, the sentence will show why) |
+
 ### Metaphorical Nouns
 
 Avoid: tapestry, landscape as a metaphor, beacon, realm, interplay, synergy,
@@ -78,6 +98,26 @@ testament, paradigm, cornerstone.
 - "ever-evolving"
 - "at the forefront"
 - "moving forward"
+
+## 2a. AI-Conclusion And Throat-Clearing Phrasings
+
+These are among the most reliable LLM-prose tells in 2025-2026. They add
+no information and signal AI-generated wrap-up rhetoric. Delete or rewrite.
+
+| Avoid | Prefer |
+|---|---|
+| in conclusion, / to conclude, | (delete — the sentence itself should be the conclusion) |
+| in summary, / to summarise, | (delete or use a structured roadmap heading) |
+| as discussed above / as we have seen / as established earlier | (delete; if needed, cite §X) |
+| having explored / having considered | (delete or rewrite as a direct claim) |
+| with that said / having said that / that being said | however, (or rewrite) |
+| to that end / in light of this | (delete or name the specific reason) |
+| the field of X has witnessed / has seen rapid growth | quantify: "publications grew from N to M, 20YY-20YY" |
+| in the rapidly evolving landscape of X | (delete; usually meaningless) |
+| paving the way for | "supports", "motivates", "suggests" |
+| shedding light on | "shows", "indicates", "reveals" |
+| this study aims to / sets out to / seeks to / endeavours to | "we test whether", "we estimate", "we show" |
+| at the heart of / lies at the core of | "central to" (and only when justified) |
 
 ## 3. Weak Demonstratives
 

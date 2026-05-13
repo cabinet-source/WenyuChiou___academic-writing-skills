@@ -44,6 +44,27 @@ Use this table when auditing:
 - [ ] The same claim is worded consistently across Abstract, Results,
       Discussion, Conclusion, and cover letter.
 
+## Disposition When A Claim Cannot Be Verified
+
+If the audit cannot find a source for a claim, do NOT leave it as-is. Choose
+one of five dispositions:
+
+| Option | When to use | Example |
+|---|---|---|
+| 1. Drop | The claim is not load-bearing for the contribution. | A throwaway adjective in Discussion; a parenthetical aside. |
+| 2. Hedge | The claim is plausible but evidence is inferential. | "X reduces Y by Z%" → "X may reduce Y" or "X is associated with a reduction in Y". |
+| 3. Move to Discussion | The claim is interpretation, not result. | A mechanism narrative misplaced in Results. |
+| 4. Add a Limitations caveat | The claim is needed but evidence is partial or indirect. | "We cannot directly observe Z; this finding assumes…". |
+| 5. Add the evidence | The evidence exists but is missing from the figure/table/text. | Re-run the analysis or add an SI panel; cite the existing source. |
+
+**Never leave a precise number unverified.** If none of (1)-(5) is possible,
+remove the number and rewrite the sentence qualitatively. A vague number is
+worse than no number; a reviewer will check the number.
+
+**Record dispositions in the audit table.** Add a "Disposition" column (1-5)
+so future audits can verify each previously unverifiable claim was actually
+handled and not silently retained.
+
 ## Certainty Rules
 
 Use direct verbs only when the study design supports them:
