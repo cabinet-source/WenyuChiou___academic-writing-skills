@@ -84,6 +84,12 @@ Hedged language is required for:
 Prefer "is consistent with", "suggests", "appears to", "is associated with",
 "may explain", or "contributes to" when evidence is inferential.
 
+For inferential or simulation results, avoid the overclaim verbs *confirms*,
+*demonstrates*, *proves*, *establishes*, and *shows*; replace them with
+*indicates*, *suggests*, or *is consistent with*. Reserve *confirms* / *shows*
+for facts the reader can verify directly, such as a value printed in a figure
+or a setting the authors controlled.
+
 ### 2.2 No Vague Intensifiers
 
 Words such as "substantial", "major", "dramatic", "strong", and "large" need a
@@ -373,6 +379,27 @@ Apply this audit at the same time as §4.6 (domain-native vocabulary) —
 invented compounds and field-foreign terms tend to appear together when
 text is imported from a software or method draft.
 
+### 4.8 Plain, Not Ornate Or Journalistic
+
+Prefer the common, everyday word over the difficult, literary, or ornate one.
+Reviewers read ornate diction as showy rather than rigorous. Default to the
+plain choice unless the precise term has no plain equivalent.
+
+Common ornate to plain swaps:
+
+- *conflates* to confuses, or treats as the same
+- *entails* to carries, involves
+- *attained* to reached, results from
+- *conception* (of equity) to definition, view
+- *misreads* (a figure) to mistakes ... for
+- *reproduces* (inequities) to repeats, extends
+- *collapses X to Y* to reduces X to Y
+
+Separately, avoid journalistic register that belongs in a news article rather
+than a results or discussion section, such as *harder-hit*, *hidden cost*,
+*staggering*, or *a stark reminder*. State the quantity or the mechanism plainly
+instead (for example, *harder-hit* to *bears the larger loss*).
+
 ## 5. Voice, Tense, And Rhythm
 
 ### 5.1 Active And Passive Voice
@@ -390,6 +417,10 @@ is conventional or irrelevant. Do not enforce either as a universal rule.
 
 Avoid monotonous sentence rhythm. Target an average near 20-30 words and revise
 sentences above 45 words unless the journal style or content justifies them.
+
+Split run-on sentences that chain three or more independent clauses, or that
+bury the main verb behind a long embedded appositive. Each sentence should
+carry one main idea the reader can hold without backtracking.
 
 ### 5.4 Repetition
 

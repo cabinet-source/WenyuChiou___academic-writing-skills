@@ -38,6 +38,12 @@ limit on semicolons and colons in body prose, see `writing_principles.md`
 | substantiate | support |
 | facilitate | enable, allow, or rewrite |
 | exemplify | show, illustrate |
+| conflates | confuses, treats as the same |
+| entails | carries, involves |
+| attained | reached, results from |
+| reproduces (an effect or inequity) | repeats, extends |
+| misreads (a figure or number) | mistakes ... for |
+| collapses (X to Y) | reduces (X to Y) |
 
 ### Adjectives
 
@@ -48,6 +54,10 @@ major, dramatic.
 
 "Significant" is allowed for statistical significance. It is not allowed as a
 generic intensifier.
+
+Avoid journalistic register (news-article diction): harder-hit, hidden cost,
+staggering, eye-watering, a stark reminder. State the quantity or the mechanism
+plainly instead (for example, *harder-hit* becomes *bears the larger loss*).
 
 ### Adverbs
 
