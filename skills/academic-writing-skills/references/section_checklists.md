@@ -120,14 +120,28 @@ Checklist:
 
 ## Conclusion
 
+Three-part structure (parallel to the 6-part abstract, at conclusion scale):
+
+1. **Challenge recap** (2-3 sentences): re-establish the scientific problem, why existing approaches fall short, and what this approach offers. Not a "we did X" summary; restate why it matters.
+2. **Findings, one per research question** (one paragraph): name the aims, then give one finding per research question in the SAME order, each with its mechanism (the "why", not only the "what"); mark the last with "Finally,".
+3. **Scope, contribution, beyond the case** (one paragraph): bound the claim honestly (limitations, hedged), state the key contribution once, and end on why it matters beyond this case or system (a transferable direction), not a methods self-compliment.
+
+Skeleton:
+
+- P1: "Understanding [phenomenon] requires [capability]. Existing [approaches] [limitation]. [This approach] offers [opportunity]."
+- P2: "We [built or applied X] to [aim 1], [aim 2], and [aim 3]. [Finding 1], because [mechanism 1]. [Finding 2], reflecting [mechanism 2]. Finally, [finding 3], which [mechanism 3]."
+- P3: "This work is best viewed as [scope]. Limitations include [a, b, c], but the findings [contribution]. By [the advance], [approach] opens [a generalizable direction]."
+
 Checklist:
 
-- [ ] Mirrors the order of the research questions.
-- [ ] Summarizes what was done and what was found.
-- [ ] Includes the strongest mechanism or implication.
+- [ ] P1 recaps the challenge (why), not a bare "what we did" summary.
+- [ ] Mirrors the order of the research questions, one finding paragraph per question (1:1).
+- [ ] Each finding carries a mechanism, not only the result.
 - [ ] Introduces no new result.
 - [ ] Uses numbers already verified in Results.
-- [ ] Final sentence explains why the study matters beyond the case.
+- [ ] Key contribution stated exactly once.
+- [ ] Limitations and future work are hedged.
+- [ ] Final sentence explains why the study matters beyond the case (generalization, not a methods self-compliment).
 
 ## Cover Letter
 
