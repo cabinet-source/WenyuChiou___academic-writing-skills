@@ -400,6 +400,27 @@ than a results or discussion section, such as *harder-hit*, *hidden cost*,
 *staggering*, or *a stark reminder*. State the quantity or the mechanism plainly
 instead (for example, *harder-hit* to *bears the larger loss*).
 
+### 4.9 Summary Sections Reuse The Body's Terminology
+
+The Abstract and the Conclusion summarize; they do not introduce vocabulary.
+Every technical term in a summary section should already appear in Methods or
+Results. Do not coin a new term, compound, or variant in the Abstract or
+Conclusion to make a point read more sharply, and do not paraphrase an
+established term into a near-synonym the body never uses.
+
+Common failure: the body defines "tenure-specific" and "ground-up loss", and
+the conclusion then writes "tenure-differentiated" and "physical damage". A
+reviewer reading the body and then the summary sees two strings for one concept
+and infers either two concepts or careless editing.
+
+Procedure: before finalizing an Abstract or Conclusion, list each technical
+term it uses and confirm the same string appears in the body. If a summary
+needs a concept the body never names, the gap is in the body; add or fix the
+term there first, then reuse it in the summary.
+
+This extends §4.7. An invented compound is worse in a summary section, because
+the body never had the chance to define it.
+
 ## 5. Voice, Tense, And Rhythm
 
 ### 5.1 Active And Passive Voice
@@ -427,6 +448,35 @@ carry one main idea the reader can hold without backtracking.
 Repeated nouns, verbs, and adjectives can be useful for precision, but repeated
 phrasing across consecutive sentences often reads machine-generated. Keep
 defined technical terms stable while varying nontechnical wording.
+
+### 5.5 Humanize: Remove AI-Tell Patterns
+
+Text produced or heavily edited by a language model carries structural patterns
+that reviewers increasingly recognize. Remove them after the content is correct.
+These are about structure and rhythm, not word choice; the banned-word audit in
+`banned_words.md` does not catch them, so a clean banned-word verdict does not
+clear a passage.
+
+- Mechanical rule-of-three: lists or modifiers that always arrive in threes
+  ("clear, rigorous, and reproducible"). Vary the count; two or four is fine.
+- Negative parallelism: "not only X but also Y", "it is not X, it is Y". At
+  most one per paper.
+- Inflated antithesis: "more than a model, this is a framework". Cut it.
+- Uniform sentence rhythm: every sentence near the same length and the same
+  subject-verb-object shape. Break the pattern with one short sentence.
+- Formulaic signposts: "It is worth noting", "Importantly", "Notably", "Taken
+  together", "In essence". Some are also in `banned_words.md`; the structural
+  tell here is the cluster, two or more in one passage, which no single-word
+  ban catches. State the point without the label.
+- Hedge stacking: "may potentially suggest", "could possibly indicate". One
+  hedge is enough.
+- Repeated paragraph or sentence openers: consecutive units starting "This
+  ...", "These results ...", "Our ...". Vary the entry point.
+- Restating one point three ways in a summary. Say it once.
+
+Heuristic: read the passage aloud. If it sounds like a competent stranger
+narrating rather than the author explaining, it needs humanizing. The target is
+the author's plain voice, not a smoother machine voice.
 
 ## 6. Figures
 

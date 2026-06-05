@@ -197,6 +197,15 @@ Before returning prose or an audit result, check:
     - If `.paper/claims.yml` is absent and the task is a claim-evidence
       or overclaim audit, say so explicitly and suggest running
       `paper-memory-builder` first.
+11. Humanize pass: scan for AI-tell structural patterns per
+    `references/writing_principles.md` §5.5 (mechanical rule-of-three,
+    negative parallelism, uniform sentence rhythm, formulaic signposts,
+    hedge stacking, repeated paragraph openers). These are structural, not
+    word choice, so a clean banned-word verdict does not clear them.
+12. Summary-section terminology: every technical term in an Abstract or
+    Conclusion already appears in Methods or Results per
+    `references/writing_principles.md` §4.9. Flag any term, compound, or
+    near-synonym the body never uses; fix the body's term first, then reuse it.
 
 If any item fails, fix it before showing the user.
 
