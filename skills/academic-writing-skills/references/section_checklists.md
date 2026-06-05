@@ -143,6 +143,8 @@ Checklist:
 - [ ] Limitations and future work are hedged.
 - [ ] Final sentence explains why the study matters beyond the case (generalization, not a methods self-compliment).
 
+Final-sentence trap: do not end the conclusion on a methods self-compliment such as "these results show why coupled modeling is useful" or "the framework is a useful tool for X." That praises the method, not the science. End on what the findings imply beyond this case or system.
+
 ## Cover Letter
 
 Checklist:

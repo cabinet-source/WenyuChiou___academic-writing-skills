@@ -400,6 +400,8 @@ than a results or discussion section, such as *harder-hit*, *hidden cost*,
 *staggering*, or *a stark reminder*. State the quantity or the mechanism plainly
 instead (for example, *harder-hit* to *bears the larger loss*).
 
+At the other end of the register, avoid conversational connectors that read as informal speech. The most common is *so* used to mean "as a result" ("X, so Y"); prefer *therefore* placed mid-sentence, a *because* clause, *while*, or two separate sentences. Also avoid sentence-initial *So*, *And*, *But*, and *Plus*. These pull body prose toward speech rather than a results or discussion section.
+
 ### 4.9 Summary Sections Reuse The Body's Terminology
 
 The Abstract and the Conclusion summarize; they do not introduce vocabulary.
