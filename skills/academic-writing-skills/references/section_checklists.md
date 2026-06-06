@@ -30,6 +30,7 @@ Checklist:
 - [ ] Does not include precise numbers that are absent from Results or figures.
 - [ ] Results open with a brief signal (e.g., "The results show that..."), then the finding.
 - [ ] Ends with a contribution that could not be guessed without the study.
+- [ ] Keywords (4-6) add discoverability terms not in the title (e.g., methods or concepts the title omits); no keyword repeats a title word.
 
 ## Introduction
 
