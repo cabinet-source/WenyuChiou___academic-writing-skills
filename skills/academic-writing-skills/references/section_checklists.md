@@ -13,6 +13,14 @@ Recommended six-part order:
 5. Results: the most important findings in logical order.
 6. Contribution: the study-dependent advance.
 
+Skeleton (field-agnostic phrasing). The six parts group into three moves (importance and gap, then method, then results and contribution):
+
+- Importance, then the unresolved gap (Challenge): "[Phenomenon] is increasingly important for [outcome], but [the open question] remains unresolved because existing [approaches] rarely [capability]."
+- To address it, with method, for whom, and where (What + How + Where): "To address this gap, we develop/present [method] that [how it works], applied to [whom / study area] over [period]." Keep the study area in the middle, not the opening.
+- Results, then contribution: "The results show that [headline finding], because [mechanism]. [Secondary finding]. These results show how [the advance]." For policy or equity venues, one implication sentence may follow the contribution.
+
+For the full six-part method, banned-word list, and worked examples, use the `abstract-writer` skill.
+
 Checklist:
 
 - [ ] Opens with scientific challenge, not study area or method name.
