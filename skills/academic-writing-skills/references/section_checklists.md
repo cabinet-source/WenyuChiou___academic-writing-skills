@@ -23,11 +23,12 @@ For the full six-part method, banned-word list, and worked examples, use the `ab
 
 Checklist:
 
-- [ ] Opens with why the problem matters, then pivots to the specific unresolved gap (not study area or method name).
+- [ ] Opening signals why the problem matters (its importance or stakes), then pivots to the specific unresolved gap (not study area or method name).
 - [ ] Avoids unexplained technique names.
 - [ ] States only claims supported by the claim-evidence ledger.
 - [ ] Keeps sentences under the target journal's word and length constraints.
 - [ ] Does not include precise numbers that are absent from Results or figures.
+- [ ] Results open with a brief signal (e.g., "The results show that..."), then the finding.
 - [ ] Ends with a contribution that could not be guessed without the study.
 
 ## Introduction
