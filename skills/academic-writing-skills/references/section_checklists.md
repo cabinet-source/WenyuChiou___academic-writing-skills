@@ -6,7 +6,7 @@ Load only the subsection needed for the current task.
 
 Recommended six-part order:
 
-1. Challenge: why the problem matters scientifically.
+1. Challenge: why the problem matters, then the gap that remains unresolved (importance first, then the open question).
 2. What: the framework, dataset, experiment, or argument.
 3. How: the method at a high level.
 4. Where: study area or case, placed in the middle rather than the opening.
@@ -23,7 +23,7 @@ For the full six-part method, banned-word list, and worked examples, use the `ab
 
 Checklist:
 
-- [ ] Opens with scientific challenge, not study area or method name.
+- [ ] Opens with why the problem matters, then pivots to the specific unresolved gap (not study area or method name).
 - [ ] Avoids unexplained technique names.
 - [ ] States only claims supported by the claim-evidence ledger.
 - [ ] Keeps sentences under the target journal's word and length constraints.
