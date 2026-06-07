@@ -62,6 +62,33 @@ We expect X because Y, given Z.
 Descriptive research questions without a directional expectation often produce
 weak Results sections.
 
+### 1.7 Emphasis In The Subject (End-Focus)
+
+Put the sentence's main point in the grammatical SUBJECT and main clause.
+Relegate secondary information (time, place, method genealogy, hedges) to
+subordinate clauses or adjuncts, and place the heaviest or newest material at the
+END (end-weight). Do not let a time or place adverbial sit between the subject and
+its verb, and do not make a weak placeholder the subject.
+
+Weak:
+
+> Research over the past few decades has converged on how households decide.
+
+The time adverbial splits subject from verb, and the real point (that a large
+literature exists) is buried.
+
+Better:
+
+> A large body of research on how households decide to adapt to floods has
+> accumulated over recent decades.
+
+The subject carries the emphasis; the secondary time phrase ends the sentence.
+
+This extends §1.1 (findings first) to the sentence level, and reinforces the
+domain-first / subject-of-interest convention: the subject should carry the
+field's key information, not the method, the metric, or a circumstantial
+adverbial.
+
 ## 2. Precision
 
 ### 2.1 No Overclaim

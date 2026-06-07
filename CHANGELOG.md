@@ -11,6 +11,22 @@ marketplace; see that repo's CHANGELOG for the catalog-side history.
 
 ## [Unreleased]
 
+## [0.2.2] - 2026-06-07
+
+### Added
+
+- **§1.7 "Emphasis In The Subject (End-Focus)"** in
+  `skills/academic-writing-skills/references/writing_principles.md`
+  (plugin `0.2.1 → 0.2.2`). Adds a sentence-level rule to §1 (Structure
+  And Logic): put the main point in the grammatical subject and main
+  clause, relegate secondary information (time, place, method genealogy,
+  hedges) to subordinate clauses with the heaviest/newest material at the
+  end (end-weight), and never split the subject from its verb with a
+  time/place adverbial. Extends §1.1 (findings first) to the sentence
+  level. The principle was already carried in downstream copies
+  (`~/.claude/ACADEMIC_WRITING.md`, the 0.2.0 plugin cache); committing it
+  to source so it survives plugin re-sync from `@main`.
+
 ## [0.2.1] - 2026-05-23
 
 ### Fixed
@@ -158,7 +174,8 @@ commit [`a04dee7`](https://github.com/WenyuChiou/academic-writing-skills/commit/
   conventions surface in some references; the core workflow is
   domain-neutral.
 
-[Unreleased]: https://github.com/WenyuChiou/academic-writing-skills/compare/v0.2.1...HEAD
+[Unreleased]: https://github.com/WenyuChiou/academic-writing-skills/compare/v0.2.2...HEAD
+[0.2.2]: https://github.com/WenyuChiou/academic-writing-skills/compare/v0.2.1...v0.2.2
 [0.2.1]: https://github.com/WenyuChiou/academic-writing-skills/compare/v0.2.0...v0.2.1
 [0.2.0]: https://github.com/WenyuChiou/academic-writing-skills/compare/v0.1.0...v0.2.0
 [0.1.0]: https://github.com/WenyuChiou/academic-writing-skills/releases/tag/v0.1.0
