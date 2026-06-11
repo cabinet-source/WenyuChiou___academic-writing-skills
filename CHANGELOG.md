@@ -11,6 +11,21 @@ marketplace; see that repo's CHANGELOG for the catalog-side history.
 
 ## [Unreleased]
 
+## [0.2.3] - 2026-06-11
+
+### Added
+
+- **§1.8 "Results Answers The Questions; Discussion Extends Beyond Them"** in
+  `skills/academic-writing-skills/references/writing_principles.md`, plus a
+  matching Discussion checklist line in `references/section_checklists.md`
+  (plugin `0.2.2 -> 0.2.3`). Makes the Results/Discussion boundary explicit:
+  Results answers the research questions (finding -> mechanism -> question);
+  the Discussion extends beyond them (cross-result synthesis, boundary,
+  positioning, implications, limitations) and is not a paragraph-by-paragraph
+  re-answer (that 1:1 mapping is the Conclusion's job). The skill already
+  encoded the anti-restate spirit; this adds the explicit "beyond the
+  questions" framing.
+
 ## [0.2.2] - 2026-06-07
 
 ### Added
@@ -174,7 +189,8 @@ commit [`a04dee7`](https://github.com/WenyuChiou/academic-writing-skills/commit/
   conventions surface in some references; the core workflow is
   domain-neutral.
 
-[Unreleased]: https://github.com/WenyuChiou/academic-writing-skills/compare/v0.2.2...HEAD
+[Unreleased]: https://github.com/WenyuChiou/academic-writing-skills/compare/v0.2.3...HEAD
+[0.2.3]: https://github.com/WenyuChiou/academic-writing-skills/compare/v0.2.2...v0.2.3
 [0.2.2]: https://github.com/WenyuChiou/academic-writing-skills/compare/v0.2.1...v0.2.2
 [0.2.1]: https://github.com/WenyuChiou/academic-writing-skills/compare/v0.2.0...v0.2.1
 [0.2.0]: https://github.com/WenyuChiou/academic-writing-skills/compare/v0.1.0...v0.2.0

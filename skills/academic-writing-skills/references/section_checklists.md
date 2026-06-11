@@ -122,6 +122,7 @@ Typical structure:
 Checklist:
 
 - [ ] Does not repeat Results paragraph by paragraph.
+- [ ] Extends beyond the research questions (synthesis / boundary / implication); not a paragraph-by-paragraph re-answer to them (that 1:1 mapping is the Conclusion's job).
 - [ ] Prior-work comparisons are specific and cited.
 - [ ] Mechanism synthesis connects multiple findings.
 - [ ] Implications are modest and evidence-bound.

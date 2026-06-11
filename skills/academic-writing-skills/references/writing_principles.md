@@ -89,6 +89,33 @@ domain-first / subject-of-interest convention: the subject should carry the
 field's key information, not the method, the metric, or a circumstantial
 adverbial.
 
+### 1.8 Results Answers The Questions; Discussion Extends Beyond Them
+
+Results = the parts that DIRECTLY answer the research questions (or
+sub-questions): finding -> mechanism (one sentence) -> link to the question.
+Discussion = the EXTENSION beyond those questions: cross-result mechanism
+synthesis, boundary conjectures, positioning against prior work, implications,
+and limitations.
+
+Do not organize the Discussion as a paragraph-by-paragraph re-answer to the
+research questions. That 1:1 mapping is the Conclusion's job. And do not let a
+Discussion paragraph restate Results numbers without adding mechanism or
+implication, which duplicates rather than synthesises (see §3).
+
+Weak (a Discussion paragraph that just re-answers the question):
+
+> For the second question, condition B scored higher than condition A
+> (M = 3.64 vs 2.86).
+
+Better (extends beyond the question):
+
+> The B-over-A gap is not the whole story: it persists across subgroups where
+> the predictors would not predict it, which points to [mechanism] and, unlike
+> [prior work], implies [consequence].
+
+This extends §1.1 (findings first) and §1.6 (hypothesis-driven questions) to the
+section level: the Results earn the answers; the Discussion earns the meaning.
+
 ## 2. Precision
 
 ### 2.1 No Overclaim
