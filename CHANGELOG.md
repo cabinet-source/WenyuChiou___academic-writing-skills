@@ -11,6 +11,18 @@ marketplace; see that repo's CHANGELOG for the catalog-side history.
 
 ## [Unreleased]
 
+## [0.2.4] - 2026-06-14
+
+### Added
+
+- **§4.10 "Each Paragraph Hands Off To The Next"** in
+  `references/writing_principles.md`: a paragraph's final sentence must set up
+  the next paragraph (a consequence, limitation, or open question it raises), so
+  the reader feels the next question coming. Forbids both dead-stop endings and
+  connective-only bridges (a "However," bolted on the start of the next
+  paragraph in place of a real handoff). Complements §4.5 (transitions as a
+  post-structure polish step) and §4.8 (plain, not ornate).
+
 ## [0.2.3] - 2026-06-11
 
 ### Added

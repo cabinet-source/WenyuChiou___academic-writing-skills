@@ -477,6 +477,24 @@ term there first, then reuse it in the summary.
 This extends §4.7. An invented compound is worse in a summary section, because
 the body never had the chance to define it.
 
+### 4.10 Each Paragraph Hands Off To The Next
+
+A paragraph's last sentence should set up the paragraph that follows, so the
+reader feels the next question coming rather than meeting a fresh topic cold.
+The handoff is usually a consequence, a limitation, or an unanswered question
+raised by the paragraph just finished, which the next paragraph then takes up.
+It is a sentence that does real work and happens to point forward, not
+transitional filler.
+
+Check the seam explicitly before a paragraph is final: read the last sentence
+of paragraph N together with the first sentence of paragraph N+1. If N+1 needs
+a connective bolted on the front ("However," "Moreover," "Building on this") to
+feel continuous, the handoff is missing; fix it in the last sentence of N, not
+with a connective at the start of N+1. Avoid both a dead stop (the paragraph
+closes its loop and opens nothing) and a connective-only bridge (the link lives
+in a filler word rather than in the substance). This complements §4.5, which
+places transition work after the structure is fixed.
+
 ## 5. Voice, Tense, And Rhythm
 
 ### 5.1 Active And Passive Voice
